@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "ai-art-casa"
+version = "0.1.0"
+description = ""
+authors = ["Merenda Franco N. <merenda.franco83@gmail.com>"]
+readme = "README.md"
+packages = [{include = "ai_art_casa"}]
+
+[tool.poetry.dependencies]
+python = "^3.12"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
