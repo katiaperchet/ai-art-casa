@@ -2,7 +2,7 @@
 name = "ai-art-casa"
 version = "0.1.0"
 description = ""
-authors = ["Merenda Franco N. <merenda.franco83@gmail.com>"]
+authors = ["Merenda Franco N. <f.merenda2@studenti.unisa.it>", "Katia Melanie Perchet <k.perchet@studenti.unisa.it>"]
 readme = "README.md"
 packages = [{include = "ai_art_casa"}]
 
