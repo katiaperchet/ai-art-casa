@@ -4,7 +4,7 @@ The project aims contains a classifier that recognizes if a given image is gener
 For this we make use of the [AI-ArtBench](https://www.kaggle.com/datasets/ravidussilva/real-ai-art) dataset, 
 to be able to classify for each art-style individually and then for all art-styles as end-goal.
 
-_**Authors**: Katia Melanie Perchet, Santiago Morales Henao and Franco N. Merenda._
+_**Authors**: Franco Nicolas Merenda, Santiago Morales Henao, Katia Melanie Perchet._
 
 ### Dataset: [AI-ArtBench](https://www.kaggle.com/datasets/ravidussilva/real-ai-art)
 Contains the 30 classes representing the source and the artistic style. The first 20 folders are named as below structure,
