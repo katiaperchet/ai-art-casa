@@ -48,3 +48,17 @@ jupyter-lab
 ### Windows🪟 - Environment Setup Issue
 - If issues with `TensorFlow importing`:
     - **Solution**: `pip install tensorflow==2.16.1 --force-reinstall`
+ 
+# 3. Expected Art Style Order
+**Sorted by level of Abstraction of the Art Style:**
+
+1. Realism - [https://it.wikipedia.org/wiki/Realismo_(arte)](https://it.wikipedia.org/wiki/Realismo_(arte))
+2. Renaissance - https://en.wikipedia.org/wiki/Renaissance
+3. Romanticism - https://en.wikipedia.org/wiki/Romanticism
+4. Baroque - https://en.wikipedia.org/wiki/Baroque
+5. Ukiyo-e - https://it.wikipedia.org/wiki/Ukiyo-e
+6. Art Nouveau - https://it.wikipedia.org/wiki/Art_Nouveau
+7. Post impressionism - https://en.wikipedia.org/wiki/Post-Impressionism
+8. Impressionism - https://en.wikipedia.org/wiki/Impressionism
+9. Expressionism - https://en.wikipedia.org/wiki/Expressionism
+10. Surrealism - https://en.wikipedia.org/wiki/Surrealism
