@@ -28,11 +28,11 @@ directly taken from ArtBench-10 dataset and the rest is generated equally using 
 Standard Diffusion models. The human-drawn art is in 256x256 resolution and images generated using 
 Latent Diffusion and Standard Diffusion has 256x256 and 768x768 resolutions respectively.
 
-Dataset Information:
-1. Folders Organization: `AI_<source_model>_<art_style>`
+**Dataset Information**:
+1. **Folders Organization**: `AI_<source_model>_<art_style>`
    1. `source_model`: Latent Diffusion (`LD`), Standard Diffusion (`SD`)
    2. `art_style`: `Art Nouveau`, `Baroque`, `Expressionism`, `Impressionism`, `Post impressionism`, `Realism`, `Renaissance`, `Romanticism`, `Surrealism`, `Ukiyo-e`
-2. Total Images Count from All Art Styles:
+2. **Total Images Count from All Art Styles**:
    - `Train` Split : 155,015 
    - `Test` Split : 30,000
 
