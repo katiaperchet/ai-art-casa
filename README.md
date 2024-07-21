@@ -22,8 +22,9 @@ In this project we have tested different types of CNNs architectures in order to
 
 For each art style separately, the following CNNs were tested:
 1. `CNN` - Defined by authors
-2. [`VGG16`](https://keras.io/api/applications/vgg/) (Transfer Learning) + Flatten() + Dense(256, "relu") + Dropout(0.5) + Dense(1, "sigmoid")
-3. [`VGG19`](https://keras.io/api/applications/vgg/) (Transfer Learning) + Flatten() + Dense(256, "relu") + Dropout(0.5) + Dense(1, "sigmoid")
+<img width="597" alt="Screenshot 2024-07-21 at 2 41 21 PM" src="https://github.com/user-attachments/assets/fe976d47-22ad-49ca-85af-b5739537761f">
+3. [`VGG16`](https://keras.io/api/applications/vgg/) (Transfer Learning) + Flatten() + Dense(256, "relu") + Dropout(0.5) + Dense(1, "sigmoid")
+4. [`VGG19`](https://keras.io/api/applications/vgg/) (Transfer Learning) + Flatten() + Dense(256, "relu") + Dropout(0.5) + Dense(1, "sigmoid")
 
 # 2. Setup Environment
 
