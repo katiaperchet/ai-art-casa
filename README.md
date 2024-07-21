@@ -21,10 +21,9 @@ Contains the 30 classes representing the source and the artistic style. The firs
 In this project we have tested different types of CNNs architectures in order to perform good accuracy.
 
 For each art style separately, the following CNNs were tested:
-1. CNN - Defined by authors
-
-2. VGG16 (Transfer Learning) + Flatten() + Dense(256, "relu") + Dropout(0.5) + Dense(1, "sigmoid")
-3. VGG19 (Transfer Learning) + Flatten() + Dense(256, "relu") + Dropout(0.5) + Dense(1, "sigmoid")
+1. `CNN` - Defined by authors
+2. [`VGG16`](https://keras.io/api/applications/vgg/) (Transfer Learning) + Flatten() + Dense(256, "relu") + Dropout(0.5) + Dense(1, "sigmoid")
+3. [`VGG19`](https://keras.io/api/applications/vgg/) (Transfer Learning) + Flatten() + Dense(256, "relu") + Dropout(0.5) + Dense(1, "sigmoid")
 
 # 2. Setup Environment
 
