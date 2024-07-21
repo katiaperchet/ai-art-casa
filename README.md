@@ -23,7 +23,7 @@ _**Authors**: Katia Melanie Perchet, Franco Nicolas Merenda._
 
 
 ## 1.1. Dataset: [AI-ArtBench](https://www.kaggle.com/datasets/ravidussilva/real-ai-art)
-AI-ArtBench is a dataset that contains 180,000+ art images. 60,000 of them are human-drawn art that was 
+**AI-ArtBench** is a dataset that contains 180,000+ art images. 60,000 of them are human-drawn art that was 
 directly taken from ArtBench-10 dataset and the rest is generated equally using Latent Diffusion and 
 Standard Diffusion models. The human-drawn art is in 256x256 resolution and images generated using 
 Latent Diffusion and Standard Diffusion has 256x256 and 768x768 resolutions respectively.
