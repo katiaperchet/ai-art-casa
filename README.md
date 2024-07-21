@@ -16,8 +16,11 @@ The project is organized by following the next **_approach_**:
 
 **Results** obtained by running all the models are in the following report:
 - [**_AI-Generated Art Detection Project_**]()
+- **Course**: _Context Aware Security Analytics In Computer Vision 2023/2024 - UNISA_
 
 _**Authors**: Katia Melanie Perchet, Franco Nicolas Merenda._
+
+
 
 ## 1.1. Dataset: [AI-ArtBench](https://www.kaggle.com/datasets/ravidussilva/real-ai-art)
 AI-ArtBench is a dataset that contains 180,000+ art images. 60,000 of them are human-drawn art that was 
