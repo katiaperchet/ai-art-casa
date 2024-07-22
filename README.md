@@ -67,9 +67,9 @@ git clone https://github.com/katiaperchet/ai-art-casa
 ```bash
 poetry install
 ```
-5. Run jupyter-lab to access notebooks and run examples/tests!
+5. Run jupyter-notebook to access notebooks and run examples/tests!
 ```bash
-jupyter notebook
+poetry run jupyter notebook
 ```
 
 ## 2.2 Using `pip`
@@ -82,6 +82,10 @@ git clone https://github.com/katiaperchet/ai-art-casa
 4. Install dependencies
 ```bash
 pip install -r requirements.txt
+```
+5. Run jupyter-notebook to access notebooks and run examples/tests!
+```bash
+poetry run jupyter notebook
 ```
 
 ## 2.3 Using [`miniforge` - conda](https://github.com/conda-forge/miniforge) -- MacOS M1/M2 🍎 GPU Support!
