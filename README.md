@@ -54,8 +54,8 @@ For **All Art Styles**, we tested the following CNNs:
 
 # 2. Setup Environment
 
-## 2.1 Using `poetry`
-###  2.1.1. Linux/Windows 🐧/🪟- Setup Environment
+## 2.1 Using [`poetry`](https://python-poetry.org/docs/#installation)
+
 1. Install [Python](https://www.python.org/downloads/)
 2. Clone Project
 ```bash
@@ -69,8 +69,9 @@ poetry install
 ```
 5. Run jupyter-lab to access notebooks and run examples/tests!
 ```bash
-jupyter-lab
+jupyter notebook
 ```
+
 ## 2.2 Using `pip`
 1. Install [Python](https://www.python.org/downloads/)
 2. Clone Project
@@ -83,17 +84,48 @@ git clone https://github.com/katiaperchet/ai-art-casa
 pip install -r requirements.txt
 ```
 
-## 2.3 Using `mini-conda`
+## 2.3 Using [`miniforge` - conda](https://github.com/conda-forge/miniforge) -- MacOS M1/M2 🍎 GPU Support!
 
-### 2.3.1 MacOS M1/M2 🍎 - Setup Environment
+Useful Links:
+1. [TensorFlow Installation on Mac M1/M2(Apple Silicon) Chip | Quick Setup Guide](https://www.youtube.com/watch?v=Ro8Rv-hEoDc&ab_channel=ClassifiedCodes)
+2. [TensorFlow Setup on Apple Silicon Mac (M1, M1 Pro, M1 Max)](https://yashguptatech.medium.com/tensorflow-setup-on-apple-silicon-mac-m1-m1-pro-m1-max-661d4a6fbb77)
 
-**Help support:** https://blog.fotiecodes.com/install-tensorflow-on-your-mac-m1m2m3-with-gpu-support-clqs92bzl000308l8a3i35479
+NOTE: Run your terminal in ARM64 Mode. You can use the following aliases to run as ARM or X86.
+```
+alias arm="env /usr/bin/arch -arm64 /bin/zsh --login"
+alias intel="env /usr/bin/arch -x86_64 /bin/zsh --login"
+```
 
-1. Install Anaconda → `brew install anaconda`
-2. Setup Environment for ARM  `CONDA_SUBDIR=osx-arm64 conda create -n native numpy python=3.10.13 -c conda-forge`
-3. `conda install -c apple tensorflow-deps`
-4. `python -m pip install tensorflow-macos`
-5. `python -m pip install tensorflow-metal`
+1. [Download `Miniforge3`](https://github.com/conda-forge/miniforge/releases/latest/download/Miniforge3-MacOSX-arm64.sh)
+```bash
+git clone https://github.com/katiaperchet/ai-art-casa
+wget https://github.com/conda-forge/miniforge/releases/latest/download/Miniforge3-MacOSX-arm64.sh
+chmod +x ~/Downloads/Miniforge3-MacOSX-arm64.sh
+sh ~/Downloads/Miniforge3-MacOSX-arm64.sh
+source ~/miniforge3/bin/activate
+```
+
+2. **(Option 1)** - Create conda environment with `python=3.11` with `tensorflow=2.16.2` dependencies:
+
+   i. Create it Step by step
+    ```bash
+    conda install -c apple tensorflow-deps
+    conda create -n tensorflow python=3.11
+    # Activate created virtual environment
+    conda activate tensorflow
+    ```
+   ii. Install necessary dependencies (Two options):
+    ```bash
+    pip install tensorflow-macos
+    pip install tensorflow-metal
+    conda install numpy=1.26.4 pandas matplotlib scikit-learn scipy plotly jupyter seaborn
+    ```
+2. **(Option 2)** - Create conda environment from file
+```bash
+conda env create -f conda_macm1_environment.yaml
+```
+
+3. Run `jupyter notebook` with GPU support! 
 
 
 ## Issues
