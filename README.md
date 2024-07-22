@@ -16,7 +16,7 @@ The project is organized by following the next **_approach_**:
 2. **Apply CNNs to all Art Styles** - Classify if image from any Art Style is AI Generated or not.
 
 **Results** obtained by running all the models are in the following report:
-- [**_AI-Generated Art Detection Project_**]()
+- [**_AI-Generated Art Detection Project_ - PDF Report**](https://github.com/katiaperchet/ai-art-casa/blob/main/report/AI-GeneratedArtDetection-PERCHET-MERENDA.pdf)
 - **Course**: _Context Aware Security Analytics In Computer Vision 2023/2024 - UNISA_
 
 _**Authors**: Katia Melanie Perchet, Franco Nicolas Merenda._
