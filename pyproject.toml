@@ -2,7 +2,7 @@
 name = "ai-art-casa"
 version = "0.1.0"
 description = ""
-authors = ["Merenda Franco N. <f.merenda2@studenti.unisa.it>", "Katia Melanie Perchet <k.perchet@studenti.unisa.it>", "Santiago Morales <s.moraleshenao@studenti.unisa.it>"]
+authors = ["Merenda Franco N. <f.merenda2@studenti.unisa.it>", "Katia Melanie Perchet <k.perchet@studenti.unisa.it>"]
 readme = "README.md"
 
 [tool.poetry.dependencies]
